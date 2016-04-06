@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SDL App</string>
+    <string name="title_activity_ffm_encoding">FfmEncodingActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_encoding_frames">EncodingFrames</string>
+    <string name="title_activity_main_socket">MainSocketActivity</string>
+
+</resources>
