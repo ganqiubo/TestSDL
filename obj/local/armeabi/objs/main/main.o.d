@@ -116,7 +116,8 @@ obj/local/armeabi/objs/main/main.o: jni/src/main.c \
  jni/src/../SDL/include/SDL_messagebox.h \
  jni/src/../SDL/include/SDL_power.h jni/src/../SDL/include/SDL_render.h \
  jni/src/../SDL/include/SDL_system.h jni/src/../SDL/include/SDL_timer.h \
- jni/src/../SDL/include/SDL_version.h jni/src/../SDL/include/SDL_main.h
+ jni/src/../SDL/include/SDL_version.h jni/src/../SDL/include/SDL_main.h \
+ D:/android-ndk32-r10b-windows-x86_64/android-ndk-r10b/platforms/android-19/arch-arm/usr/include/jni.h
 
 D:/android-ndk32-r10b-windows-x86_64/android-ndk-r10b/platforms/android-19/arch-arm/usr/include/stdio.h:
 
@@ -385,3 +386,5 @@ jni/src/../SDL/include/SDL_timer.h:
 jni/src/../SDL/include/SDL_version.h:
 
 jni/src/../SDL/include/SDL_main.h:
+
+D:/android-ndk32-r10b-windows-x86_64/android-ndk-r10b/platforms/android-19/arch-arm/usr/include/jni.h:

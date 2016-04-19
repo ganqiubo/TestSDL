@@ -50,7 +50,7 @@ void Java_com_cc_decodec_DecodecFrames_decodecFrameInit(JNIEnv* env,jobject thiz
 		pCodecCtx->height = h;
 		pCodecCtx->time_base.num = 1;
 		pCodecCtx->time_base.den = 25;
-		pCodecCtx->bit_rate = 10*pCodecCtx->width*pCodecCtx->height;
+		pCodecCtx->bit_rate = 5*pCodecCtx->width*pCodecCtx->height;
 		pCodecCtx->max_b_frames=0;
 		pCodecCtx->flags |= CODEC_FLAG_GLOBAL_HEADER;
 		LOGE("frameEncodeInit----->%i",pCodecCtx->height);

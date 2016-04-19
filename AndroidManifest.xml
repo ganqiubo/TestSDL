@@ -30,6 +30,11 @@
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/app_name"
             android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name="com.cc.encoding.FfmEncodingFile"
@@ -48,11 +53,7 @@
         <activity
             android:name="com.cc.socket.main.MainActivity"
             android:label="@string/title_activity_main_socket" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            
         </activity>
         <activity
             android:name="com.cc.socket.main.ReceiverActivity" >
